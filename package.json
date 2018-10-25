@@ -1,0 +1,24 @@
+{
+  "name": "gacs",
+  "version": "1.0.0",
+  "description": "This server app get data from java process and displays it in real time.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "mosquitto"
+  ],
+  "author": "Mukimut Salat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mqtt": "^2.18.8",
+    "socket.io": "^2.1.1"
+  }
+}
